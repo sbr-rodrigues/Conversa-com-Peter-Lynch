@@ -22,6 +22,7 @@ Peter Lynch foi gestor do fundo **Magellan da Fidelity Investments**, famoso por
 - Pesquisa própria sobre empresas.
 - Investimentos de longo prazo.
 - Identificação de negócios sólidos e compreensíveis.
+- https://sbr-rodrigues.github.io/Conversa-com-Peter-Lynch/
 
 ## 🚀 Como Executar
 Este repositório contém os materiais produzidos. Basta navegar pelas pastas para acessar:
