@@ -33,6 +33,9 @@ Este repositório contém os materiais produzidos. Basta navegar pelas pastas pa
 
 ## 🤝 Contribuição
 Este projeto faz parte da comunidade da **[Digital Innovation One](https://github.com/digitalinnovationone)**.  
+feat: projeto inspirado no curso da @digitalinnovationone
+Este projeto foi desenvolvido como parte do curso da @digitalinnovationone
+Contribuição realizada durante o curso da @digitalinnovationone
 
 ## 📜 Licença
 Este projeto está sob a licença MIT. Sinta-se livre para usar e adaptar.
