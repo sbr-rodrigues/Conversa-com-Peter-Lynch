@@ -33,10 +33,6 @@ Este repositório contém os materiais produzidos. Basta navegar pelas pastas pa
 
 ## 🤝 Contribuição
 Este projeto faz parte da comunidade da **[Digital Innovation One](https://github.com/digitalinnovationone)**.  
-Para marcar a DIO e mostrar que você está contribuindo em projetos de terceiros:
-- Cite a organização no README com link para o GitHub oficial.
-- Use `@digitalinnovationone` em issues ou pull requests relacionados.
-- Adicione a tag `dio` ou `digital-innovation-one` nas descrições dos commits.
 
 ## 📜 Licença
 Este projeto está sob a licença MIT. Sinta-se livre para usar e adaptar.
