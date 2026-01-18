@@ -5,111 +5,107 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" type="image/x-icon" href="Media/logotipo_Lynch.png">
   <title>Instituto Peter Lynch</title>
-  </head>
   <style>
     body {
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; 
-    font-family: 'Segoe UI', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
-}
+      background-color: black;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed; 
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+      box-sizing: border-box;
+    }
 
-  section {
-    text-align: center;
-  }
+    section {
+      text-align: center;
+    }
 
-  .imagem-direita {
-    float: right; 
-    margin-left: 20px; 
-    margin-bottom: 20px;
-    text-align: center;
-    width: 240px;
-    display: block;
-    margin: 0 auto;
-  }
+    /* Agora a classe é aplicada diretamente na imagem */
+    .imagem-direita {
+      float: right; 
+      margin-left: 20px; 
+      margin-bottom: 20px;
+      width: 240px;
+      display: block;
+    }
 
-  h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 44px;
-  }
+    h1 {
+      font-size: 44px;
+    }
 
-  h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 32px;
-  }
+    h2 {
+      font-size: 32px;
+    }
 
-  p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-  }
+    p {
+      font-size: 25px;
+    }
 
-  h1,h2, p {
-    margin: 1em auto;
-    color: #FFD700;
-  } 
+    h1, h2, p {
+      margin: 1em auto;
+      color: #FFD700;
+    } 
 
-  .menu {
-    background-color: rgba(255, 255, 255, 0.3);
-    padding: 30px;
-    border-radius: 10px;
-  }
+    .menu {
+      background-color: rgba(255, 255, 255, 0.3);
+      padding: 30px;
+      border-radius: 10px;
+    }
 
     main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-  }
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
 
-  a {
-    color: #c9c3c6;
-  }
-
+    a {
+      color: #c9c3c6;
+    }
   </style>
 </head>
 <body>
   <div class="menu">
-  <main>
-  <h1>Conversando com Peter Lynch</h1>
-    <section>
-         <div class="imagem-direita">
-          <img src="media/img_Lynch.png" alt="Peter Lynch - Famoso investidor">
-          <p class="legenda">Peter Lynch</p>
-          </div> 
-      <h2>Peter Lynch - autor de "Insvista no que você conhece"</h2>      
-      <p>Peter Lynch foi um dos maiores investidores da história, conhecido por transformar o Fidelity Magellan Fund no fundo mais bem-sucedido do mundo entre 1977 e 1990. Ele defendia a filosofia “Invista no que você conhece”, incentivando investidores a aplicar em empresas e setores que entendiam no dia a dia
-      </p>
-      </section>
+    <main>
+      <h1>Conversando com Peter Lynch</h1>
       <section>
-      <h2>Material de consulta do Petar Lynch</h2>
-      <p><a target="_blank" href="media/mapa-mental_Lynch.png">organização</a>Mapa Mental do conhecimento de Peter Lynch.</p>
-      <p><a target="_blank" href="media/relatorio_Lynch.pdf">Relatório</a> principais pontos a serem abordados.</p>
-      <p><a target="_blank" href="media/apresentacao_Lynch.pdf">Apresentação</a exposição das ideias de Peter Lynch.</p>
-      <p>Vídeo de Peter Lynch</p>
-      <video controls width="640">
-      <source src="media/video_Lynch.mp4" type="video/mp4" />
-      </video>
-      <p>Postcast sobre Peter Lynch</p>
-      <audio controls loop>
-      <source src="media/audio_Lynch.mp3" type="audio/mp3" />
-      </audio>         
-</section>
-</main>
-</div>
-<footer>
-      <p>
-        Fonte - <a href="https://notebooklm.google.com/notebook/3911ee31-c6f4-4046-9ae3-62fc5298f29f">notebooklm.google</a>
-      </p>
-    </footer>
+        <!-- Classe aplicada direto na imagem -->
+        <img class="imagem-direita" src="media/img_Lynch.png" alt="Peter Lynch - Famoso investidor">
+        <p class="legenda">Peter Lynch</p>
+
+        <h2>Peter Lynch - autor de "Invista no que você conhece"</h2>      
+        <p>
+          Peter Lynch foi um dos maiores investidores da história, conhecido por transformar o Fidelity Magellan Fund no fundo mais bem-sucedido do mundo entre 1977 e 1990. Ele defendia a filosofia “Invista no que você conhece”, incentivando investidores a aplicar em empresas e setores que entendiam no dia a dia.
+        </p>
+      </section>
+
+      <section>
+        <h2>Material de consulta do Peter Lynch</h2>
+        <p><a target="_blank" href="media/mapa-mental_Lynch.png">Mapa Mental</a> do conhecimento de Peter Lynch.</p>
+        <p><a target="_blank" href="media/relatorio_Lynch.pdf">Relatório</a> com os principais pontos a serem abordados.</p>
+        <p><a target="_blank" href="media/apresentacao_Lynch.pdf">Apresentação</a> das ideias de Peter Lynch.</p>
+
+        <p>Vídeo de Peter Lynch</p>
+        <video controls width="640">
+          <source src="media/video_Lynch.mp4" type="video/mp4" />
+        </video>
+
+        <p>Podcast sobre Peter Lynch</p>
+        <audio controls loop>
+          <source src="media/audio_Lynch.mp3" type="audio/mp3" />
+        </audio>         
+      </section>
+    </main>
+  </div>
+  <footer>
+    <p>
+      Fonte - <a href="https://notebooklm.google.com/notebook/3911ee31-c6f4-4046-9ae3-62fc5298f29f">notebooklm.google</a>
+    </p>
+  </footer>
 </body>
-
 </html>
-
