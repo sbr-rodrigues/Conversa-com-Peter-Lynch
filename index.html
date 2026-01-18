@@ -13,8 +13,7 @@
       background-attachment: fixed; 
       font-family: 'Segoe UI', sans-serif;
       display: flex;
-      justify-content: center;
-      align-items: center;
+      flex-direction: column;
       min-height: 100vh;
       margin: 0;
       padding: 20px;
@@ -25,47 +24,62 @@
       text-align: center;
     }
 
-    /* Agora a classe é aplicada diretamente na imagem */
-    .imagem-direita {
-      float: right; 
-      margin-left: 20px; 
-      margin-bottom: 20px;
+    .imagem-direita img {
       width: 240px;
+      max-width: 100%;
+      height: auto;
       display: block;
+      margin: 0 auto;
+      padding: 10px 0;
+    }
+
+    .legenda {
+      font-size: 18px;
+      color: #FFD700;
+      text-align: center;
+      margin-top: 10px;
     }
 
     h1 {
       font-size: 44px;
+      color: #FFD700;
     }
 
     h2 {
       font-size: 32px;
+      color: #FFD700;
     }
 
     p {
       font-size: 25px;
-    }
-
-    h1, h2, p {
-      margin: 1em auto;
       color: #FFD700;
-    } 
+    }
 
     .menu {
       background-color: rgba(255, 255, 255, 0.3);
       padding: 30px;
       border-radius: 10px;
+      max-width: 800px;
+      margin: 0 auto;
     }
 
     main {
-      max-width: 800px;
-      margin: 0 auto;
       padding: 20px;
       text-align: center;
     }
 
     a {
       color: #c9c3c6;
+    }
+
+    footer {
+      width: 100%;
+      text-align: center;
+      padding: 15px;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: #FFD700;
+      font-size: 16px;
+      margin-top: auto; /* empurra o rodapé para o fim */
     }
   </style>
 </head>
@@ -74,27 +88,24 @@
     <main>
       <h1>Conversando com Peter Lynch</h1>
       <section>
-        <!-- Classe aplicada direto na imagem -->
-        <img class="imagem-direita" src="media/img_Lynch.png" alt="Peter Lynch - Famoso investidor">
+        <div class="imagem-direita">
+          <img src="media/img_Lynch.png" alt="Peter Lynch - Famoso investidor">
+        </div>
         <p class="legenda">Peter Lynch</p>
-
         <h2>Peter Lynch - autor de "Invista no que você conhece"</h2>      
         <p>
           Peter Lynch foi um dos maiores investidores da história, conhecido por transformar o Fidelity Magellan Fund no fundo mais bem-sucedido do mundo entre 1977 e 1990. Ele defendia a filosofia “Invista no que você conhece”, incentivando investidores a aplicar em empresas e setores que entendiam no dia a dia.
         </p>
       </section>
-
       <section>
         <h2>Material de consulta do Peter Lynch</h2>
-        <p><a target="_blank" href="media/mapa-mental_Lynch.png">Mapa Mental</a> do conhecimento de Peter Lynch.</p>
-        <p><a target="_blank" href="media/relatorio_Lynch.pdf">Relatório</a> com os principais pontos a serem abordados.</p>
-        <p><a target="_blank" href="media/apresentacao_Lynch.pdf">Apresentação</a> das ideias de Peter Lynch.</p>
-
+        <p><a target="_blank" href="media/mapa-mental_Lynch.png">Mapa Mental</a> organização do conhecimento de Peter Lynch.</p>
+        <p><a target="_blank" href="media/relatorio_Lynch.pdf">Relatório</a> pontos a serem abordados.</p>
+        <p><a target="_blank" href="media/apresentacao_Lynch.pdf">Apresentação</a> exposição das ideias de Peter Lynch.</p>
         <p>Vídeo de Peter Lynch</p>
         <video controls width="640">
           <source src="media/video_Lynch.mp4" type="video/mp4" />
         </video>
-
         <p>Podcast sobre Peter Lynch</p>
         <audio controls loop>
           <source src="media/audio_Lynch.mp3" type="audio/mp3" />
